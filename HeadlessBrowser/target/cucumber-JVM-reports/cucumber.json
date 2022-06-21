@@ -1,0 +1,107 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2022-06-21T11:14:51.719Z",
+        "line": 3,
+        "name": "Login functionality exists",
+        "description": "",
+        "id": "cucumber;login-functionality-exists",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2079021800,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I have open the browser",
+            "match": {
+              "location": "cucumberReport.openBrowser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3686429299,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I open crud website",
+            "match": {
+              "location": "cucumberReport.goToCRUD()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 258407100,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "CREATE button should exist",
+            "match": {
+              "location": "cucumberReport.createButton()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-06-21T11:14:57.774Z",
+        "line": 11,
+        "name": "Login functionality exists",
+        "description": "",
+        "id": "cucumber;login-functionality-exists",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1639784500,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "I have open the browser",
+            "match": {
+              "location": "cucumberReport.openBrowser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1614421600,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "I open crud website",
+            "match": {
+              "location": "cucumberReport.goToCRUD()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 25926201,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "CREATE button should not exist",
+            "match": {
+              "location": "cucumberReport.NoCreateButton()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "cucumber",
+    "description": "",
+    "id": "cucumber",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/CucumberReport/cucumberReport.feature",
+    "tags": []
+  }
+]
